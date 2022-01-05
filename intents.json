@@ -1,0 +1,23 @@
+{"intents" : [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+    "responses": ["Hello!", "Hey!", "What can I do for you?"]},
+    {"tag": "goodbye",
+        "patterns": ["cya", "See you later", "I am leaving", "Have a Good Day", "bye", "cao", "see ya"],
+        "responses": ["Sad to see you go :(", "Talk to you later", "goodbye"]},
+     {"tag": "age",
+    "patterns": ["how old", "what is your age", "how old are you", "age?", "tell me your age"],
+    "responses": ["24 Years", "I am 24 years old"]},
+    {"tag": "name",
+        "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+        "responses": ["Hello!", "Hey!", "What can I do for you?"]},
+    {"tag": "country",
+        "patterns": ["Where are you from?", "Nationality", "What's your location"],
+        "responses": ["I am from Turkey", "Turkish", "I am currently located at Istanbul"]},
+    {"tag": "football",
+        "patterns": ["which team you support", "What's your favorite sport", "Which league you watch"],
+        "responses": ["I support Galatasaray", "My favorite is football!", "Turkish super league is the one I enjoy"]},
+    {"tag": "basketball",
+        "patterns": ["Who is your idol in nba", "Best team in the Nba", "How many teams plays in the nba"],
+        "responses": ["My idol is Michael Jordan", "Best team is the Chicago Bulls", "30 team plays in the nba"]}
+]}
